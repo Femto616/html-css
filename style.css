@@ -1,0 +1,105 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(320deg, #020001, #360234, #000000);
+}
+
+#DivTitulo {
+    background: linear-gradient(320deg, #020001, #20021f, #000000);
+    padding: 10px;
+    text-align: center;
+}
+
+#Titulo {
+    color: #630760;
+    font-size: 75px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 5px; 
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);    
+}
+
+#conteiner {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.musicas {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.musicas img {
+    width: 50px;
+    height: 50px; 
+    border-radius: 5px;
+}
+
+.musicas a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#ImagemPrincipal {
+    max-width: 500px; 
+    height: 600px;   
+    object-fit: cover;  
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3); 
+}
+
+p, ul li {
+    color: white;
+}
+
+#OLI, #img {
+    background: linear-gradient(320deg, #020001, #630760, #000000);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background: linear-gradient(320deg, #020001, #2c032b, #000000);;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+    color: white;
+}
+#aaa {
+    
+    background-color: #000000;
+}
+
+
+.musicas:hover img {
+    transform: scale(1.1); 
+}
+
+#deus {
+    text-decoration: none;
+    color: inherit;
+}
+
+#deus:hover {
+    color: #1ED760;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: white;
+}
