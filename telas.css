@@ -1,0 +1,45 @@
+@media (max-width:600px) {
+    body {
+        background-color: orangered;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    button {
+        background-color: green;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+@media (min-width:600px) and (max-width:899px) {
+    body {
+        background-color: blue;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    button {
+        background-color: red;
+    }
+}
+
+@media (min-width:900px) {
+    body {
+        background-color: purple;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    button {
+        background-color: aqua;
+    }
+}
